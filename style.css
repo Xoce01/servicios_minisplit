@@ -1,0 +1,582 @@
+/* h1 */
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+/* end h1*/
+
+/*--texto */
+@import url('https://fonts.googleapis.com/css?family=Anton|Philosopher&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Philosopher|Ultra&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*--menu inicio---*/
+.open-uno{
+    display: none;
+}
+
+.overlay{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    height: 100px;
+}
+
+
+.overlay li{
+    list-style: none;
+}
+
+.overlay a{
+    
+    float: right;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    border-left: solid rgb(192, 190, 190) 2px;
+    font-size: 23px;
+}
+
+/**menu final*/
+
+
+        header{
+            width: 100%;
+            height: 490px;
+            background-color: #3E5D4D;
+            display: block;
+            border-radius: 0 0 70px 70px;
+        }
+
+
+
+
+        header img{
+            width: 40%;
+            height: auto;
+            display: inline-block;
+            position: relative;
+            top: 17px;
+           left: 170px;
+           animation-name: example;
+           animation-duration: 3s ;
+           animation-iteration-count: infinite;
+           animation-direction: alternate-reverse;
+        }
+        @keyframes example{
+            from { transform:rotate(-6deg);}
+            to {transform: rotate(6deg);}
+            
+        }
+       
+
+
+        .conte1{
+            padding-top: 65px;
+         width: 55%;
+         height: auto;
+         background-color: #FFFFFF;
+         float: right;
+         border-radius: 0 0 100px 100px;
+         padding-bottom: 30px;
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        .conte0{
+            
+            width: 70%;
+            height: auto;
+            margin: auto;
+   
+        }
+        .conte0 h1 {
+            font-family: 'Anton', sans-serif;
+           text-align: center;
+           font-size: 370%;
+           color: rgb(56, 55, 53);
+        }
+        .conte0 p{
+            font-family: 'Philosopher', sans-serif;
+            text-align: center;
+            color:  #5C503F;
+            font-size: 20px;
+        }
+       
+
+
+
+        
+        
+
+      header a{
+
+       width: 40%;
+         border-radius: 15px;
+          background-color: #FB6D3A;
+          color: antiquewhite;
+          text-align: center;
+          border: none;
+          text-decoration: none;
+          font-size: 16px;
+          display: block ;
+          margin-left: auto;
+            margin-right: auto;
+           
+          padding: 15px 32px;
+          cursor: pointer;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+      header a:hover{
+          font-size: 18px;
+      }
+
+
+
+
+/*galeria de imagenes */
+
+      section{
+            width: 100%;
+            height: auto;
+            background-color: #FFFFFF;
+            padding-bottom: 30px;
+            display:inline-block;
+        }
+    .section_uno{
+           width: 80%;
+           height: auto;
+          padding-bottom: 30px;
+           background-color: #FFFFFF;
+           display: block;
+           margin: auto;
+    }
+    .contenedor_uno{
+           width: 28%;
+           height: 380px;
+           background-color: #FFFFFF;
+           float: left;
+           margin-left: 30px;
+    }
+    .fondo_dos{
+        height: 270px;
+        width: 100%;
+       border-radius:  0 0 10px 10px;
+        background-color: #F9F9FB;
+       display: inline-block;
+       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) , 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .fondo_dos p{
+        color: rgb(63, 62, 62);
+    }
+    
+    .contenedor_uno img{
+        width: 80%;
+        display: block;
+        margin: auto;
+        border-radius: 20px  ;
+        border: solid rgb(156, 154, 154) 1px ;
+    }
+      
+      section h1 {
+    text-align: center;
+    padding: 40px 0 15px 0;
+    font-family: 'Ultra', serif;
+    font-size: 240%;
+    color: rgb(77, 57, 60);
+}
+.fondo_dos h2{
+          text-align: center;
+          color: rgb(54, 53, 53);
+      }
+section p{
+    color: rgb(70, 58, 58);
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+    display: block;
+}
+      
+
+
+
+     
+
+/* fin galeria*/
+
+
+
+
+
+/* article inicio*/
+article{
+    background-color: rgb(243, 247, 243);
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+    display: inline-block;
+    padding-top: 40px;
+      
+}
+.prin1 {
+    width: 80%;
+    display: block;
+    margin: auto;
+    
+    
+}
+.bg1{
+    width: 55%;
+    height: 350px;
+    background-color: #FB6D3A;
+    background-image: url(imagen/girl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    float: left; 
+    display: flex;
+}
+.tex1{
+    width: 44.80%;
+    height: auto;
+    background-color: rgb(59, 59, 61);
+   display: inline-block;
+   margin-top: 30px;
+   padding-bottom: 25px;
+}
+.tex1 h3{
+    text-align: center;
+    font-size: 200%;
+    color: cornsilk;
+}
+.tex1 p{
+     color: rgb(177, 176, 171);
+     width: 75%;
+     margin: auto;
+     display: block;
+}
+
+
+/* article end*/ 
+
+
+
+/*--footer inicio*/
+footer{
+    background-color: #3e5d4d;
+   
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.redes_sociales{
+  
+   width: 30%;
+   height: 300px;
+}
+  
+
+.contefu{
+    width: 90%;
+    height: 350px;
+    display: block;
+    margin: auto;
+    background-color: #3e5d4d;
+   
+}
+.contefu h3 {
+    
+    margin-bottom: 30px;
+    color: cornsilk;
+    text-align: center;
+}
+.contefu p{
+    width: 80%;
+    color: cornsilk;
+    margin: auto;
+    display: block;
+}
+.acerca{
+    width: 35%;
+    height: 200px;
+    float: left;
+}
+.redes_sociales{
+  float: left;
+   width: 35.%;
+   height: 300px;
+   text-align: center;
+   
+  
+}
+.redes_sociales i {
+    display: block;
+    padding-bottom: 40px;
+    
+}
+.redes_sociales a{
+    color: cornsilk;
+    text-decoration: none;
+}
+
+
+
+.contactanos{
+    width: 35%;
+    float: left;
+    text-align: center;
+}
+.contactanos a{
+    padding-bottom: 40px;
+    display: block;
+    color: cornsilk;
+}
+.contactanos iframe{
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px rgb(43, 42, 42) ;
+}
+
+.copi {
+    text-align: center;
+    background-color: rgb(58, 58, 58);
+    bottom: 0;
+   
+}
+.copi a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+@media screen  and ( max-width: 1030px ){
+    
+
+    header img{
+    top: 18px;
+    }
+
+    .conte1{
+        margin-top:0 ;
+            padding-top: 5px;
+         width: 55%;
+        display: block;
+     margin: auto;
+         float: none;
+         border-radius: 100px 100px;
+        }
+        header{
+            
+            height: auto;
+            padding-bottom: 10px;
+            border-radius: 0 0 70px 70px;
+        }
+        header img{
+            
+            display: block;
+            margin: auto;
+          
+            position: none;
+            top: 0;
+           left: 0;
+           
+        }
+
+
+        .bg1{
+    width: 55%;
+    height: 405px;
+    
+    
+    
+}
+.tex1{
+    width: 44.80%;
+    height: auto;
+    padding-bottom: 20px;
+   margin-top: 30px;
+}
+
+
+
+.contefu{
+    width: 100%;
+    height: auto;
+}
+
+.acerca{
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.redes_sociales{
+  
+   width: 50%;
+   height: 300px;
+}
+   .contactanos{
+    width: 100%;
+    float: none;
+    display: block;
+    margin: auto;
+}
+.contactanos iframe{
+    width: 100%;
+    border-radius: 0px;
+    box-shadow: none ;
+  }
+  
+} 
+@media screen and ( max-width: 791px ){
+
+    .section_uno{
+           width: 100%;
+           
+    }
+    
+    .bg1{
+    width: 80%;
+
+    margin: auto;
+    float: none; 
+   display: block;
+}
+
+.tex1{
+   margin-left: 20%;
+   margin-right: auto;
+   margin-top: 0px;
+   
+    width: 60.80%;
+    
+    
+   margin-top: 0px;
+}
+
+header a{
+    width: 50%;
+}
+@media screen and (max-width: 584px){
+
+
+/*menu inicio*/
+    .open-uno{
+        display: block;
+        float: right;
+        margin-right: 35px;
+        font-size: 60px;
+        cursor: pointer;
+        color: #F9F9FB;
+    }
+   .open-uno:hover{
+       color: rgb(208, 208, 211);
+   }
+    .overlay{
+        height: auto;
+        background-color: #3E5D4D;
+    }
+
+
+#mymenu{
+    margin-top: 70px;
+    display: none;
+    width: 100%;
+    height: 230px;
+    background-color: rgb(68, 68, 67);
+   margin-bottom: 0px;
+}
+
+
+.overlay a{
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    color: aliceblue;
+    border-left: none;
+    font-size: 25px;
+}
+
+
+/*fin menu*/
+
+
+header a{
+    width: 60%;
+}
+.conte0 h1 {
+    
+   font-size: 320%;
+   
+}
+
+
+header img{
+    top: 18px;
+}
+
+    section{
+            
+            
+            padding-bottom: 0px;
+            
+        }
+    .conte1{
+            padding-top: 0px;
+         width: 90%;
+         height: auto;
+        
+        
+         padding-bottom: 30px;
+        }
+   
+    .contenedor_uno{
+           width: 78%;
+           margin: auto;
+           float:none;
+          
+           display: block;
+           margin-bottom: 70px;
+    }
+
+    .fondo_dos{
+        width: 100%;
+       
+        
+    }
+
+
+
+    .prin1 {
+    width: 100%;
+    
+    
+}
+.bg1{
+    width: 100%;
+    
+}
+.tex1{
+    width: 80.80%;
+    margin-left: 9.5%;
+}
+
+
+.acerca{
+    width: 100%;
+    display: inline-block;
+    float: none;
+}
+.redes_sociales{
+   display: inline-block;
+   width: 100%;
+  
+}
+}
+
+}
